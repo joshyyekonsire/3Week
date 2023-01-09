@@ -1,0 +1,118 @@
+body > div {
+    background-color: blanchedalmond;
+    position: relative;
+    width: 400px;
+    height: 500px;
+}
+
+.children {
+    height: 100px;
+    width: 100px;
+    border: 5px solid black;
+}
+
+#box1 {
+    background-color: red;
+    position: relative;
+    top: 15px;
+    left: 15px;
+    z-index: 1;
+}
+#box2 {
+    background-color: yellow;
+    position: absolute;
+    top: 30px;
+    right: 0px;
+    
+}
+#box3 {
+    background-color: green;
+    position: sticky;
+    top: 5px;
+    z-index: 2;
+
+}
+
+#ib-section {
+    background-color: chartreuse;
+}
+
+#ib-section > div {
+    background-color: green;
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+
+}
+
+#flex-section {
+    background-color: palevioletred;
+    height: 350px;
+    width: 200px;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+#flex-section > div {
+    background-color:red;
+    height: 100px;
+    width: 100px;
+}
+
+#baseline-section {
+    background-color:brown;
+    display: flex;
+    align-items: baseline;
+}
+
+#baseline-section > div {
+    background-color: orange;
+    display: flex;
+    align-items: center;
+
+
+}
+
+#tall {
+    height: 150px;
+}
+
+#short {
+    height: 100px;
+}
+
+#medium {
+    height: 125px;
+}
+
+#content-box {
+    box-sizing: content-box;
+    width: 100px;
+    height: 100px;
+    border: solid blue 10px;
+    padding: 5px;
+    background-color: yellow;
+}
+
+#border-box {
+    box-sizing: border-box;
+    width: 100px;
+    height: 100px;
+    border: solid blue 10px;
+    padding: 5px;
+    background-color: yellow;
+}
+
+
+footer {
+    background-color: blueviolet;
+position: fixed;
+bottom: 0px;
+}
+
+div article {
+    color: aquamarine;
+}

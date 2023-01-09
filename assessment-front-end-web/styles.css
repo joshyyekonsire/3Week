@@ -1,0 +1,58 @@
+body {
+  background: #ddd;
+  margin: 1rem;
+  padding: 1rem;
+  max-width: 500px;
+  margin: 2rem auto;
+  font-family: "Open Sans", sans-serif;
+}
+
+nav {
+	border-bottom: 2px solid orange;
+}
+
+ol {
+	padding-left: 0;
+}
+
+.crumb {
+	margin-right: 2em;
+	display: inline;
+}
+
+a {
+	color: orange;
+}
+
+a:visited {
+	color: crimson;
+}
+
+
+input {
+	display: block;
+}
+
+img {
+	max-width: 300px;
+}
+
+.alertBtn {
+	font-size: 19px;
+	background-color: yellow;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	border-radius: 30px;
+	text-transform: uppercase;
+	font-weight: bold;
+	
+	
+	
+}
+
+.alertBtn:active {
+	transform: translateY(2px);
+}
+
+.alertBtn:focus {
+	outline: none;
+}

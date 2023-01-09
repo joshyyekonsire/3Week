@@ -1,0 +1,50 @@
+h1 {
+    text-align: center;
+    font-size: 60px;
+    background-color:darkgrey ;
+    
+}
+
+h2 {
+    text-align: center;
+    font-size: 60px;
+    background-color: darkgrey;
+}
+
+p {
+    font-size: 30px ;
+    color:black;
+    text-align: center;
+    background-color: aliceblue;
+    
+}
+
+* {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+img {
+    border-radius: 10px;
+    border: solid black 10px;
+}
+
+body {
+    background-image: url(https://imgs.search.brave.com/-q6hfqfEviB9P4ZGxciy2KK8l6uDTZXDO4THz69aIHY/rs:fit:1200:1200:1/g:ce/aHR0cDovL3MxLnBp/Y3N3YWxscy5jb20v/d2FsbHBhcGVycy8y/MDE3LzEyLzExL25h/dHVyZS1kZXNrdG9w/LWJhY2tncm91bmRf/MTIzMDI2ODk1XzMx/My5qcGc);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+button {
+    height: 100px;
+    width: 100px; 
+}
+
+form {
+    height: 200px;
+    width: 200px;
+    border-radius: 10px;
+    border-width: 2px;
+}

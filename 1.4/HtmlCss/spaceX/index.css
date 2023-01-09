@@ -1,0 +1,50 @@
+
+img {
+    border-radius: 10px;
+    border: solid black 10px;
+    height: auto;
+    width: 100%;
+}
+
+body {
+    background-color: black;
+    background-size: cover;
+    background-position: center;
+    color: aliceblue;
+
+}
+
+button {
+    height: 50px;
+    width: 100px; 
+}
+
+footer {
+    height: 100px;
+    background-color:rgb(45, 45, 42)
+
+}
+
+p {
+    text-align: center;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    height: 50px;
+    width: auto;
+    background-color: aliceblue;
+    color: black;
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 1;
+  }
+
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }

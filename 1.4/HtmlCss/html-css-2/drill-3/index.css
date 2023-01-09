@@ -1,0 +1,60 @@
+body {
+
+}
+
+#small-box-corner {
+    height: 50px;
+    width: 50px;
+    margin-left: 10px;
+  margin-top: 25px;
+    background-color:lightskyblue;
+}
+
+header {
+height: 100px;
+width: 100%;
+background-color:lightgrey;
+
+}
+
+#two {
+    height: 100px;
+    width: 100%;
+    background-color:white;
+}
+
+#three {
+    height: 100px;
+    width: 100%;
+    background-color:lightskyblue;
+}
+
+#four {
+    height: 100px;
+    width: 100%;
+    background-color:cyan;
+}
+
+#five {
+    height: 100px;
+    width: 100%;
+    background-color:greenyellow;
+}
+
+#six {
+    height: 100px;
+    width: 100%;
+    background-color:yellow;
+}
+
+#newdiv {
+    display: flex;
+    top: 50px;
+    height: 70px;
+    width: 70px;
+    border-width: 2px;
+    border-color: black;
+    background-color: lightgrey;
+    margin-left: 30px;
+    align-items: center;
+}

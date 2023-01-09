@@ -1,0 +1,36 @@
+body {
+  width: 98vw;
+  margin: 0px;
+  height: 100vh - 100px;
+  display: inline-block;
+}
+
+header {
+    height: 100px;
+    width: 100%;
+    background-color:dimgray;
+}
+#left-rectangle {
+    position: relative;
+    width: 100px;
+    height: 100vh;
+    background-color: lightgray;
+    z-index: 2;
+    margin: 0;
+}
+#right-rectangle {
+    float: right;
+    width: 100px;
+    height: 100vh;
+    background-color: lightgray;
+    z-index: 2;
+    margin: 0;
+}
+
+footer {
+    height: 100px;
+    width: 100%;
+    bottom: 0px;
+    background-color: rgb(39, 38, 38);
+    margin-top: -100px;
+} 
